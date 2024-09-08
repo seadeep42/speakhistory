@@ -1,0 +1,23 @@
+{
+  "name": "speakhistory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:euclidxr/speakhistory.git",
+  "author": "Deep <deep@euclidxr.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite --mode development --host 0.0.0.0 --port 3000 --config vite.config.js",
+    "build": "vite build --config vite.config.js --emptyOutDir",
+    "preview": "vite preview",
+    "publish": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "gh-pages": "^6.1.1",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.8",
+    "vite": "^5.4.2"
+  }
+}
