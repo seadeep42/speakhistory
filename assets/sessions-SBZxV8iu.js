@@ -1,1 +1,0 @@
-import{c as t,R as e,H as n,F as r}from"./footer-BbSPDzqS.js";const a=()=>e.createElement("div",{id:"page-contents"},e.createElement(n,null),"Sessions page",e.createElement(r,null)),o=t(document.getElementById("root"));o.render(e.createElement(a,null));
