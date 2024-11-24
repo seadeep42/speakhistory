@@ -1,1 +1,0 @@
-import{c as t,R as e,H as r,F as a}from"./footer-CKthCAg6.js";const n=()=>e.createElement("div",{id:"page-contents"},e.createElement(r,null),"Membership page",e.createElement(a,null)),o=t(document.getElementById("root"));o.render(e.createElement(n,null));
