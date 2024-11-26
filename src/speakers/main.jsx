@@ -20,14 +20,14 @@ const SpeakersPage = () => {
                             sess.speaker === s || includes(sess.speaker, s)
                         ));
                         return (
-                            <div className='speaker-list-item' key={s.slug}>
+                            <div className='speaker-list-item' key={s.name}>
                                 <div style={{ backgroundImage: `url(${s.img})`}} className='speaker-list-item-image' />
                                 <div>
                                     <h4 className='speaker-list-name'>{s.name}</h4>
                                     <p className='speaker-list-item-profession'>{s.profession}</p>
                                     {
                                         sessions.map(s => (
-                                            <a className='speaker-list-item-session' href={`/sessions/${s.slug}/`}>{s.title}</a>
+                                            <a className='speaker-list-item-session' href={`/sessions/${s.slug}/`} key={s.title}>{s.title}</a>
                                         ))
                                     }
                                 </div>
