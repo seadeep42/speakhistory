@@ -5,11 +5,11 @@ import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
 const photos = [
-  { src: "/session-imgs/01-04/01.jpg", width: 1600, height: 1200 },
-  { src: "/session-imgs/01-04/02.jpg", width: 1600, height: 1200 },
-  { src: "/session-imgs/01-04/03.jpg", width: 1600, height: 1200 },
-  { src: "/session-imgs/01-04/04.jpg", width: 1600, height: 1200 },
-  { src: "/session-imgs/01-04/05.jpg", width: 1600, height: 1200 },
+  { src: "/session-imgs/01-04/01.webp", width: 1600, height: 1200 },
+  { src: "/session-imgs/01-04/02.webp", width: 1600, height: 1200 },
+  { src: "/session-imgs/01-04/03.webp", width: 1600, height: 1200 },
+  { src: "/session-imgs/01-04/04.webp", width: 1600, height: 1200 },
+  { src: "/session-imgs/01-04/05.webp", width: 1600, height: 1200 },
 ];
 
 const SessionsPage = () => {

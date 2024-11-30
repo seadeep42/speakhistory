@@ -5,10 +5,10 @@ import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
 const photos = [
-  { src: "/session-imgs/01-12/01.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-12/02.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-12/03.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-12/04.jpg", width: 900, height: 1535 },
+  { src: "/session-imgs/01-12/01.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-12/02.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-12/03.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-12/04.webp", width: 900, height: 1535 },
 ];
 
 const SessionsPage = () => {

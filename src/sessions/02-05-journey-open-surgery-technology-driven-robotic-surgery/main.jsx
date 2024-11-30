@@ -4,16 +4,16 @@ import SessionDetails from "../../components/session-details";
 import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
-import Img1 from "./images/surgery_01.jpg";
+import Img1 from "./images/surgery_01.webp";
 import Img2 from "./images/surgery_02.webp";
-import Img3 from "./images/surgery_03.jpg";
-import Img4 from "./images/surgery_04.jpg";
-import Img5 from "./images/surgery_05.jpg";
-import Img6 from "./images/surgery_06.jpg";
+import Img3 from "./images/surgery_03.webp";
+import Img4 from "./images/surgery_04.webp";
+import Img5 from "./images/surgery_05.webp";
+import Img6 from "./images/surgery_06.webp";
 
 const photos = [
-  { src: "/session-imgs/02-05/01.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-05/02.jpg", width: 720, height: 1600 },
+  { src: "/session-imgs/02-05/01.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-05/02.webp", width: 720, height: 1600 },
 ];
 
 const SessionsPage = () => {

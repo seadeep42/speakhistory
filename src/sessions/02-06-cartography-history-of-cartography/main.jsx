@@ -4,30 +4,30 @@ import SessionDetails from "../../components/session-details";
 import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
-import ImgCartography01 from "./images/cartography_01.jpg";
+import ImgCartography01 from "./images/cartography_01.webp";
 import ImgCartography02 from "./images/cartography_02.webp";
-import ImgCartography03 from "./images/cartography_03.jpg";
-import ImgCartography04 from "./images/cartography_04.jpg";
+import ImgCartography03 from "./images/cartography_03.webp";
+import ImgCartography04 from "./images/cartography_04.webp";
 import ImgCartography05 from "./images/cartography_05.webp";
-import ImgCartography06 from "./images/cartography_06.jpg";
-import ImgCartography07 from "./images/cartography_07.jpg";
-import ImgCartography08 from "./images/cartography_08.jpg";
+import ImgCartography06 from "./images/cartography_06.webp";
+import ImgCartography07 from "./images/cartography_07.webp";
+import ImgCartography08 from "./images/cartography_08.webp";
 import ImgCartography09 from "./images/cartography_09.png";
-import ImgCartography10 from "./images/cartography_10.jpg";
+import ImgCartography10 from "./images/cartography_10.webp";
 import ImgCartography11 from "./images/cartography_11.webp";
-import ImgCartography12 from "./images/cartography_12.jpg";
-import ImgCartography13 from "./images/cartography_13.jpg";
+import ImgCartography12 from "./images/cartography_12.webp";
+import ImgCartography13 from "./images/cartography_13.webp";
 
 const photos = [
-  { src: "/session-imgs/02-06/01.jpg", width: 1200, height: 1600 },
-  { src: "/session-imgs/02-06/02.jpg", width: 1200, height: 1600 },
-  { src: "/session-imgs/02-06/03.jpg", width: 1600, height: 1200 },
-  { src: "/session-imgs/02-06/04.jpg", width: 1200, height: 1600 },
-  { src: "/session-imgs/02-06/05.jpg", width: 1200, height: 1600 },
-  { src: "/session-imgs/02-06/06.jpg", width: 1600, height: 1200 },
-  { src: "/session-imgs/02-06/07.jpg", width: 1600, height: 1200 },
-  { src: "/session-imgs/02-06/08.jpg", width: 1200, height: 1600 },
-  { src: "/session-imgs/02-06/09.jpg", width: 1200, height: 1600 },
+  { src: "/session-imgs/02-06/01.webp", width: 1200, height: 1600 },
+  { src: "/session-imgs/02-06/02.webp", width: 1200, height: 1600 },
+  { src: "/session-imgs/02-06/03.webp", width: 1600, height: 1200 },
+  { src: "/session-imgs/02-06/04.webp", width: 1200, height: 1600 },
+  { src: "/session-imgs/02-06/05.webp", width: 1200, height: 1600 },
+  { src: "/session-imgs/02-06/06.webp", width: 1600, height: 1200 },
+  { src: "/session-imgs/02-06/07.webp", width: 1600, height: 1200 },
+  { src: "/session-imgs/02-06/08.webp", width: 1200, height: 1600 },
+  { src: "/session-imgs/02-06/09.webp", width: 1200, height: 1600 },
 ];
 
 const SessionsPage = () => {

@@ -5,9 +5,9 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import { ROUTES } from "./utils";
 
-import ImgBookstore from "./assets/img_landing_bookstore.jpg";
-import ImgFarm from "./assets/img_landing_farm.jpg";
-import ImgGroup from "./assets/img_landing_group.jpg";
+import ImgBookstore from "./assets/img_landing_bookstore.webp";
+import ImgFarm from "./assets/img_landing_farm.webp";
+import ImgGroup from "./assets/img_landing_group.webp";
 
 import IconWhat from "./assets/icon_what.svg";
 import IconWho from "./assets/icon_who.svg";
@@ -19,10 +19,10 @@ import IconVenue from "./assets/Icon_venue.svg";
 import IconSpeaker from "./assets/Icon_speaker.svg";
 import IconTime from "./assets/Icon_time.svg";
 
-import LandingGallery1 from "./assets/img_landing_gallery_1.jpg";
-import LandingGallery2 from "./assets/img_landing_gallery_2.jpg";
-import LandingGallery3 from "./assets/img_landing_gallery_3.jpg";
-import LandingGallery4 from "./assets/img_landing_gallery_4.jpg";
+import LandingGallery1 from "./assets/img_landing_gallery_1.webp";
+import LandingGallery2 from "./assets/img_landing_gallery_2.webp";
+import LandingGallery3 from "./assets/img_landing_gallery_3.webp";
+import LandingGallery4 from "./assets/img_landing_gallery_4.webp";
 
 const LandingPage = () => {
   return (

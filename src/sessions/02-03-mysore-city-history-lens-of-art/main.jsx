@@ -4,30 +4,30 @@ import SessionDetails from "../../components/session-details";
 import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
-import ImgRecliningLady from "./images/art_01.jpg";
-import ImgGaganendranath from "./images/art_02.jpg";
-import ImgKeshava from "./images/art_03.jpg";
-import ImgAkkana from "./images/art_04.jpg";
+import ImgRecliningLady from "./images/art_01.webp";
+import ImgGaganendranath from "./images/art_02.webp";
+import ImgKeshava from "./images/art_03.webp";
+import ImgAkkana from "./images/art_04.webp";
 import ImgSaraswati from "./images/art_05.webp";
-import ImgJaganmohan from "./images/art_06.jpg";
+import ImgJaganmohan from "./images/art_06.webp";
 import ImgHope from "./images/art_07.webp";
 
 const photos = [
-  { src: "/session-imgs/02-03/01.jpg", width: 1200, height: 1600 },
-  { src: "/session-imgs/02-03/02.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/03.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-03/04.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/05.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-03/06.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/07.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-03/08.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/09.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/10.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-03/11.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/12.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/13.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/14.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-03/15.jpg", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/01.webp", width: 1200, height: 1600 },
+  { src: "/session-imgs/02-03/02.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/03.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-03/04.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/05.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-03/06.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/07.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-03/08.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/09.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/10.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-03/11.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/12.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/13.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/14.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-03/15.webp", width: 720, height: 1600 },
 ];
 
 const SessionsPage = () => {

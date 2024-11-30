@@ -3,20 +3,20 @@ import { createRoot } from "react-dom/client";
 import SessionDetails from "../../components/session-details";
 import { SESSIONS } from "../../utils";
 
-import ImgNuclear01 from "./images/nuclear_01.jpg";
-import ImgNuclear02 from "./images/nuclear_02.jpg";
-import ImgNuclear03 from "./images/nuclear_03.jpg";
-import ImgNuclear04 from "./images/nuclear_04.jpg";
-import ImgNuclear05 from "./images/nuclear_05.jpg";
+import ImgNuclear01 from "./images/nuclear_01.webp";
+import ImgNuclear02 from "./images/nuclear_02.webp";
+import ImgNuclear03 from "./images/nuclear_03.webp";
+import ImgNuclear04 from "./images/nuclear_04.webp";
+import ImgNuclear05 from "./images/nuclear_05.webp";
 import PhotoGallery from "../../components/photo-gallery";
 
 const photos = [
-  { src: "/session-imgs/02-07/01.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-07/02.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-07/03.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-07/04.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-07/05.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-07/06.jpg", width: 720, height: 1600 },
+  { src: "/session-imgs/02-07/01.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-07/02.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-07/03.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-07/04.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-07/05.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-07/06.webp", width: 720, height: 1600 },
   // { src: "/session-imgs/02-07/07.mp4", width: 478, height: 850 },
 ];
 

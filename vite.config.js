@@ -14,7 +14,8 @@ export default defineConfig({
         speakers: resolve(__dirname, 'src/speakers/index.html'),
         gallery: resolve(__dirname, 'src/gallery/index.html'),
         membership: resolve(__dirname, 'src/membership/index.html'),
-        about_us: resolve(__dirname, 'src/about_us/index.html'),
+        "about-us": resolve(__dirname, 'src/about-us/index.html'),
+        "member-blog": resolve(__dirname, './src/member-blog/index.html'),
 
         "sessions/01-01-death-of-hyder-chais-in-the-capital/index": resolve(__dirname, "src/sessions/01-01-death-of-hyder-chais-in-the-capital/index.html"),
         "sessions/01-02-yadavagiri-gateway-to-mysore-kingdom/index": resolve(__dirname, "src/sessions/01-02-yadavagiri-gateway-to-mysore-kingdom/index.html"),

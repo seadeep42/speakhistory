@@ -35,7 +35,7 @@ const Header = () => {
       <nav id="header-nav">
         <a href={ROUTES.SESSIONS}>Sessions</a>
         <a href={ROUTES.SPEAKERS}>Speakers</a>
-        {/* <a href={ROUTES.GALLERY}>Gallery</a> */}
+        <a href={ROUTES.MEMBER_BLOG}>Member blog</a>
         <a href={ROUTES.MEMBERSHIP}>Membership</a>
         <a href={ROUTES.ABOUT_US}>About Us</a>
       </nav>

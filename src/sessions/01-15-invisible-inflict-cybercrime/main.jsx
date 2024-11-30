@@ -5,17 +5,17 @@ import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
 const photos = [
-  { src: "/session-imgs/01-15/01.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-15/02.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-15/03.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-15/04.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-15/05.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-15/06.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-15/07.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-15/08.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/01-15/09.jpg", width: 860, height: 1600 },
-  { src: "/session-imgs/01-15/10.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/01-15/11.jpg", width: 1600, height: 720 },
+  { src: "/session-imgs/01-15/01.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-15/02.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-15/03.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-15/04.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-15/05.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-15/06.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-15/07.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-15/08.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/01-15/09.webp", width: 860, height: 1600 },
+  { src: "/session-imgs/01-15/10.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/01-15/11.webp", width: 1600, height: 720 },
 ];
 
 const SessionsPage = () => {

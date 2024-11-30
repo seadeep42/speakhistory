@@ -4,23 +4,23 @@ import SessionDetails from "../../components/session-details";
 import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
-import ImgWriting from "./images/etruscan_01.jpg";
-import ImgArch from "./images/etruscan_02.jpg";
-import ImgPainting1 from "./images/etruscan_03.jpg";
-import ImgPainting2 from "./images/etruscan_04.jpg";
+import ImgWriting from "./images/etruscan_01.webp";
+import ImgArch from "./images/etruscan_02.webp";
+import ImgPainting1 from "./images/etruscan_03.webp";
+import ImgPainting2 from "./images/etruscan_04.webp";
 import ImgBook from "./images/etruscan_05.webp";
 
 const photos = [
-  { src: "/session-imgs/02-01/01.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-01/02.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-01/03.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-01/04.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-01/05.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-01/06.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-01/07.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-01/08.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-01/09.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-01/10.jpg", width: 720, height: 1600 },
+  { src: "/session-imgs/02-01/01.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-01/02.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-01/03.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-01/04.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-01/05.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-01/06.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-01/07.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-01/08.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-01/09.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-01/10.webp", width: 720, height: 1600 },
 ];
 
 const SessionsPage = () => {

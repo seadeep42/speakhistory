@@ -5,9 +5,9 @@ import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
 const photos = [
-  { src: "/session-imgs/01-09/01.jpg", width: 1600, height: 848 },
-  { src: "/session-imgs/01-09/02.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-09/03.jpg", width: 720, height: 1600 },
+  { src: "/session-imgs/01-09/01.webp", width: 1600, height: 848 },
+  { src: "/session-imgs/01-09/02.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-09/03.webp", width: 720, height: 1600 },
 ];
 
 const SessionsPage = () => {

@@ -5,8 +5,8 @@ import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
 const photos = [
-  { src: "/session-imgs/01-10/01.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/01-10/02.jpg", width: 1600, height: 720 },
+  { src: "/session-imgs/01-10/01.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/01-10/02.webp", width: 1600, height: 720 },
 ];
 
 const SessionsPage = () => {

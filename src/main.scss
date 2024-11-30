@@ -122,9 +122,11 @@ a {
         padding-top: 10px;
         box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
         #header-nav {
-            margin-top: 4px;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            row-gap: 5px;
             a {
-                padding: 0 5px 10px;
+                padding: 0 5px;
                 font-size: 0.8rem;
             }
         }

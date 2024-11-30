@@ -5,13 +5,13 @@ import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
 const photos = [
-  { src: "/session-imgs/01-18/01.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/01-18/02.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-18/03.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-18/04.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/01-18/05.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/01-18/06.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/01-18/07.jpg", width: 720, height: 1600 },
+  { src: "/session-imgs/01-18/01.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/01-18/02.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-18/03.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-18/04.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/01-18/05.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/01-18/06.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/01-18/07.webp", width: 720, height: 1600 },
 ];
 
 const SessionsPage = () => {

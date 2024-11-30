@@ -4,26 +4,26 @@ import SessionDetails from "../../components/session-details";
 import { SESSIONS } from "../../utils";
 import PhotoGallery from "../../components/photo-gallery";
 
-import Img1 from "./images/palace_01.jpg";
-import Img2 from "./images/palace_02.jpg";
-import Img3 from "./images/palace_03.jpg";
-import Img4 from "./images/palace_04.jpg";
+import Img1 from "./images/palace_01.webp";
+import Img2 from "./images/palace_02.webp";
+import Img3 from "./images/palace_03.webp";
+import Img4 from "./images/palace_04.webp";
 import Img5 from "./images/palace_05.gif";
-import Img6 from "./images/palace_06.jpg";
-import Img7 from "./images/palace_07.jpg";
-import Img8 from "./images/palace_08.jpg";
-import Img9 from "./images/palace_09.jpg";
-import Img10 from "./images/palace_10.jpg";
+import Img6 from "./images/palace_06.webp";
+import Img7 from "./images/palace_07.webp";
+import Img8 from "./images/palace_08.webp";
+import Img9 from "./images/palace_09.webp";
+import Img10 from "./images/palace_10.webp";
 
 const photos = [
-  { src: "/session-imgs/02-04/01.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-04/02.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-04/03.jpg", width: 1600, height: 720 },
-  { src: "/session-imgs/02-04/04.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-04/05.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-04/06.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-04/07.jpg", width: 720, height: 1600 },
-  { src: "/session-imgs/02-04/08.jpg", width: 720, height: 1600 },
+  { src: "/session-imgs/02-04/01.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-04/02.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-04/03.webp", width: 1600, height: 720 },
+  { src: "/session-imgs/02-04/04.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-04/05.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-04/06.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-04/07.webp", width: 720, height: 1600 },
+  { src: "/session-imgs/02-04/08.webp", width: 720, height: 1600 },
 ];
 
 const SessionsPage = () => {
