@@ -1,5 +1,6 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
+import { VitePluginRadar } from 'vite-plugin-radar';
 
 export default defineConfig({
   root: "src",
@@ -46,5 +47,13 @@ export default defineConfig({
         "sessions/02-07-history-of-nuclear-weapons/index": resolve(__dirname, "src/sessions/02-07-history-of-nuclear-weapons/index.html"),
       }
     }
-  }
+  },
+  plugins: [
+    VitePluginRadar({
+      // Google Analytics tag injection
+      analytics: {
+        id: 'G-VGEMZ929RP',
+      },
+    }),
+  ]
 })

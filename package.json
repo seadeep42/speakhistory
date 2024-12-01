@@ -5,6 +5,7 @@
   "repository": "git@github.com:euclidxr/speakhistory.git",
   "author": "Deep <deep@euclidxr.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "vite --mode development --host 0.0.0.0 --port 3000 --config vite.config.js",
     "build": "vite build --config vite.config.js --emptyOutDir",
@@ -21,6 +22,7 @@
     "react-photo-album": "^3.0.2",
     "sass": "^1.77.8",
     "vite": "^5.4.2",
+    "vite-plugin-radar": "^0.9.6",
     "yet-another-react-lightbox": "^3.21.7"
   }
 }
