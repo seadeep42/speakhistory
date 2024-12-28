@@ -711,3 +711,14 @@ a {
     background-position: center;
     background-color: #ffffff;
 }
+
+@media screen and (max-width: 9800px) {
+    #founder-flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .founder-item {
+        width: 100%;
+        max-width: initial;
+    }
+}
