@@ -45,6 +45,7 @@ export default defineConfig({
         "sessions/02-05-journey-open-surgery-technology-driven-robotic-surgery/index": resolve(__dirname, "src/sessions/02-05-journey-open-surgery-technology-driven-robotic-surgery/index.html"),
         "sessions/02-06-cartography-history-of-cartography/index": resolve(__dirname, "src/sessions/02-06-cartography-history-of-cartography/index.html"),
         "sessions/02-07-history-of-nuclear-weapons/index": resolve(__dirname, "src/sessions/02-07-history-of-nuclear-weapons/index.html"),
+        "sessions/02-08-phoenicians-trading-with-india-first-ever-scientific-proof/index": resolve(__dirname, "src/sessions/02-08-phoenicians-trading-with-india-first-ever-scientific-proof/index.html"),
       }
     }
   },

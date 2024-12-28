@@ -48,7 +48,8 @@ const SessionsPage = () => {
           the probable future along with data and statistics to present a comprehensive scenario.
         </p>
       }
-      prev={SESSIONS["02-06-cartography"]}>
+      prev={SESSIONS["02-06-cartography"]}
+      next={SESSIONS["02-08-phoenicians-trading-with-india"]}>
       <div className="paragraph">
         The history of nuclear weapons is a critical study of scientific progress, military
         strategy, and diplomatic evolution, reflecting the complexities of global power dynamics.

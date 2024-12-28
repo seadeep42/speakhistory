@@ -667,3 +667,47 @@ a {
         }
     }
 }
+
+
+/************************************
+          Team page
+************************************/
+#team-flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#founder-flex {
+    display: flex;
+    gap: 80px;
+}
+
+.founder-item {
+    width: 34%;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.team-item {
+    width: 100%;
+    max-width: 320px;
+    padding-bottom: 20px;;
+    h4 {
+        margin: 10px 0 0;
+        font-size: 0.9rem;
+    }
+    p {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+}
+
+.team-item-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+}

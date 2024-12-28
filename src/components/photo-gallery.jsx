@@ -10,21 +10,34 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-const inline = {
-  style: {
-    width: "100%",
-    maxWidth: "900px",
-    aspectRatio: "3 / 2",
-    margin: "0 auto",
-  },
-};
-
 const PhotoGallery = ({ photos }) => {
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 900);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="session-full-width">
       <Lightbox
         carousel={{ finite: true }}
-        inline={inline}
+        inline={{
+          style: {
+            width: "100%",
+            maxWidth: "900px",
+            aspectRatio: isMobile ? "1 / 2" : "3 / 2",
+            margin: "0 auto",
+          },
+        }}
         plugins={[Inline, Thumbnails, Fullscreen, Slideshow, Zoom]}
         slides={photos}
       />

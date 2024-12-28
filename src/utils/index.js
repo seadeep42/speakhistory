@@ -9,6 +9,7 @@ import ImgSpeakerSubbaraman from "../assets/speakers/speaker_subbaraman.webp";
 import ImgSpeakerSudarshana from "../assets/speakers/speaker_sudarshana.webp";
 import ImgSpeakerUsha from "../assets/speakers/speaker_usha.webp";
 import ImgSpeakerVenkatagiri from "../assets/speakers/speaker_venkatagiri.webp";
+// import ImgSpeakerAjay from "../assets/speakers/speaker_ajay.webp";
 
 export const getSessionThumbnailFromSlug = (slug) => {
     const [yearNo, sessionNo] = slug.split("-");
@@ -26,6 +27,11 @@ export const ROUTES = {
 };
 
 export const SPEAKERS = {
+    mr_ajay_sharma: {
+        name: "Mr. Ajay Sharma",
+        // img: ImgSpeakerAjay,
+        profession: "Ex-Managing Partner, Ketchum Sampark India",
+    },
     dr_sudarshana: {
         name: "Dr.Sudarshana",
         img: ImgSpeakerSudarshana,
@@ -72,9 +78,9 @@ export const SPEAKERS = {
         profession: "Medical professional",
     },
     dr_satish_venkatasubbu: {
-        name: "Dr.Satish Venkatasubbu",
+        name: "Mr.Satish Venkatasubbu",
         img: ImgSpeakerSatish,
-        profession: "Cybercrime Counsel",
+        profession: "Cybermithra, Cyber lawyer",
     },
     dr_poornima_mahishi: {
         name: "Dr.Poornima Mahishi",
@@ -120,9 +126,16 @@ export const SPEAKERS_LIST = [
     SPEAKERS.dr_vijaykumar_m,
     SPEAKERS.pranav_mahishi,
     SPEAKERS.suryanarayan_rao,
+    SPEAKERS.mr_ajay_sharma,
 ];
 
 export const SESSIONS = {
+    "02-08-phoenicians-trading-with-india": {
+        title: "Phoenicians trading with india - First ever scientific proof",
+        speaker: SPEAKERS.mr_ajay_sharma,
+        slug: "02-08-phoenicians-trading-with-india-first-ever-scientific-proof",
+        date: "Saturday, 30 November 2024",
+    },
     "02-07-nuclear-weapons": {
         title: "History of Nuclear Weapons",
         speaker: SPEAKERS.suryanarayan_rao,
@@ -289,6 +302,7 @@ export const SESSIONS = {
 };
 
 export const SESSIONS_LIST = [
+    SESSIONS["02-08-phoenicians-trading-with-india"],
     SESSIONS["02-07-nuclear-weapons"],
     SESSIONS["02-06-cartography"],
     SESSIONS["02-05-robotic-surgery"],
