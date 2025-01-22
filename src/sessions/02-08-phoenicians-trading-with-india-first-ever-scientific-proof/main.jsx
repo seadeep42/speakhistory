@@ -41,7 +41,8 @@ const SessionsPage = () => {
           ANALYSIS AND INSIGHTS OF OUR SPEAKER, MR AJAY SHARMA.
         </p>
       }
-      prev={SESSIONS["02-07-nuclear-weapons"]}>
+      prev={SESSIONS["02-07-nuclear-weapons"]}
+      next={SESSIONS["02-09-order-of-gandabherunda"]}>
       <div className="paragraph">
         The Phoenicians, an ancient civilization celebrated for their seafaring skills, were
         instrumental in shaping early Mediterranean trade. While their own written records are

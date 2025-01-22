@@ -114,19 +114,19 @@ const LandingPage = () => {
 
         <div id="upcoming-wrapper">
           <div className="upcoming-item">
-            <h5>Phonecians trading with India</h5>
+            <h5>Ends of the Earth - The story of human engagement of the poles</h5>
             <div className="upcoming-flex">
               <div className="upcoming-flex-item speaker">
                 <img src={IconSpeaker} />
-                Mr.Ajay Sharma
+                Dr.Sudarshan
               </div>
               <div className="upcoming-flex-item time">
                 <img src={IconTime} />
-                30 Nov 2024, 5:00 PM
+                25 Jan 2025, 5:00 PM
               </div>
               <div className="upcoming-flex-item venue">
                 <img src={IconVenue} />
-                Kalpa Kshetra, Mysuru
+                Silverfish Books, Mysuru
               </div>
             </div>
           </div>

@@ -2,14 +2,15 @@ import ImgSpeakerDakshayani from "../assets/speakers/speaker_dakshayani.webp";
 import ImgSpeakerKimberly from "../assets/speakers/speaker_kimberly.webp";
 import ImgSpeakerMahesh from "../assets/speakers/speaker_mahesh.webp";
 import ImgSpeakerPoornima from "../assets/speakers/speaker_poornima.webp";
-import ImgSpeakerRamakrishna from "../assets/speakers/speaker_ramakrishna.webp";
+import ImgSpeakerRamakrishna from "../assets/speakers/speaker_ramakrishna_rao.png";
 import ImgSpeakerRavikumar from "../assets/speakers/speaker_ravikumar.webp";
-import ImgSpeakerSatish from "../assets/speakers/speaker_satish.webp";
-import ImgSpeakerSubbaraman from "../assets/speakers/speaker_subbaraman.webp";
-import ImgSpeakerSudarshana from "../assets/speakers/speaker_sudarshana.webp";
+import ImgSpeakerSatish from "../assets/speakers/speaker_satish.jpeg";
+import ImgSpeakerSubbaraman from "../assets/speakers/speaker_subbaraman.jpg";
+import ImgSpeakerSudarshana from "../assets/speakers/speaker_sudarshana.jpg";
 import ImgSpeakerUsha from "../assets/speakers/speaker_usha.webp";
 import ImgSpeakerVenkatagiri from "../assets/speakers/speaker_venkatagiri.webp";
-// import ImgSpeakerAjay from "../assets/speakers/speaker_ajay.webp";
+import ImgSpeakerDivya from "../assets/speakers/speaker_divya.jpg";
+import ImgSpeakerAjaySharma from "../assets/speakers/speaker_ajay_sharma.jpg";
 
 export const getSessionThumbnailFromSlug = (slug) => {
     const [yearNo, sessionNo] = slug.split("-");
@@ -29,7 +30,7 @@ export const ROUTES = {
 export const SPEAKERS = {
     mr_ajay_sharma: {
         name: "Mr. Ajay Sharma",
-        // img: ImgSpeakerAjay,
+        img: ImgSpeakerAjaySharma,
         profession: "Ex-Managing Partner, Ketchum Sampark India",
     },
     dr_sudarshana: {
@@ -89,6 +90,7 @@ export const SPEAKERS = {
     },
     divya_prathima: {
         name: "Divya Prathima",
+        img: ImgSpeakerDivya,
         profession: "Art enthusiast and amateur artist",
     },
     rg_singh: {
@@ -130,6 +132,18 @@ export const SPEAKERS_LIST = [
 ];
 
 export const SESSIONS = {
+    "02-10-conservation-restoration-antiques-art": {
+        title: "Conserving, restoring antiques, works of art",
+        speaker: SPEAKERS.mr_subbaraman,
+        slug: "02-10-conservation-restoration-antiques-art",
+        date: "Saturday, 11 January 2025",
+    },
+    "02-09-order-of-gandabherunda": {
+        title: "Order of Gandabherunda: Mysore state honours",
+        speaker: SPEAKERS.rg_singh,
+        slug: "02-09-order-of-gandabherunda",
+        date: "Saturday, 28 December 2024",
+    },
     "02-08-phoenicians-trading-with-india": {
         title: "Phoenicians trading with india - First ever scientific proof",
         speaker: SPEAKERS.mr_ajay_sharma,
@@ -302,6 +316,8 @@ export const SESSIONS = {
 };
 
 export const SESSIONS_LIST = [
+    SESSIONS["02-10-conservation-restoration-antiques-art"],
+    SESSIONS["02-09-order-of-gandabherunda"],
     SESSIONS["02-08-phoenicians-trading-with-india"],
     SESSIONS["02-07-nuclear-weapons"],
     SESSIONS["02-06-cartography"],
