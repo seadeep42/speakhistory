@@ -125,14 +125,18 @@ const SessionsPage = () => {
         temple, Srirangam, Tamilnadu, that had been covered by a layer of soot due to a fire
         accident that had occurred near the Sanctum some years ago.
       </div>
-      <div className="session-highlight-text">
+      <div className="session-highlight-text paragraph">
         <div className="session-float-image right">
           <img src={Img2} alt="" />
         </div>
-        <h4>Restoration of Ravi Varma painting</h4>A painting has a layered structure consisting of
-        a support, ground and paint layer. In conservation we aim at restoring each of the layers to
-        a good condition, besides ensuring the soundness of their mutual adhesion. Relining of
-        canvas, cleaning for removal of discoloured varnish, retouching, re-varnishing and framing.
+        <h4>Restoration of Ravi Varma painting</h4>
+        <p>
+          A painting has a layered structure consisting of a support, ground and paint layer. In
+          conservation we aim at restoring each of the layers to a good condition, besides ensuring
+          the soundness of their mutual adhesion. Relining of canvas, cleaning for removal of
+          discoloured varnish, retouching, re-varnishing and framing.
+        </p>
+        <div className="clearfloat"></div>
       </div>
       <div className="session-full-width">
         <img src={Img3} alt="" />
