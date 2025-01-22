@@ -11,6 +11,7 @@ import ImgSpeakerUsha from "../assets/speakers/speaker_usha.webp";
 import ImgSpeakerVenkatagiri from "../assets/speakers/speaker_venkatagiri.webp";
 import ImgSpeakerDivya from "../assets/speakers/speaker_divya.jpg";
 import ImgSpeakerAjaySharma from "../assets/speakers/speaker_ajay_sharma.jpg";
+import ImgSpeakerRgSingh from "../assets/speakers/speaker_rgsingh.webp";
 
 export const getSessionThumbnailFromSlug = (slug) => {
     const [yearNo, sessionNo] = slug.split("-");
@@ -95,6 +96,7 @@ export const SPEAKERS = {
     },
     rg_singh: {
         name: "Mr. R G Singh",
+        img: ImgSpeakerRgSingh,
         profession: "Secretary of Ramsons Kala Pratisthana",
     },
     dr_vijaykumar_m: {
