@@ -1,1 +1,0 @@
-import{c as t,R as e,H as r,F as a}from"./footer-D3JAn13H.js";const n=()=>e.createElement("div",{id:"page-contents"},e.createElement(r,null),"Gallery page",e.createElement(a,null)),o=t(document.getElementById("root"));o.render(e.createElement(n,null));
