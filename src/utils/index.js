@@ -12,6 +12,8 @@ import ImgSpeakerVenkatagiri from "../assets/speakers/speaker_venkatagiri.webp";
 import ImgSpeakerDivya from "../assets/speakers/speaker_divya.jpg";
 import ImgSpeakerAjaySharma from "../assets/speakers/speaker_ajay_sharma.jpg";
 import ImgSpeakerRgSingh from "../assets/speakers/speaker_rgsingh.webp";
+import ImgSpeakerSuryanarayan from "../assets/speakers/speaker_suryanarayan.jpeg";
+import ImgSpeakerVijaykumar from "../assets/speakers/speaker_vijaykumar.jpeg";
 
 export const getSessionThumbnailFromSlug = (slug) => {
     const [yearNo, sessionNo] = slug.split("-");
@@ -101,6 +103,7 @@ export const SPEAKERS = {
     },
     dr_vijaykumar_m: {
         name: "Dr. Vijay Kumar M",
+        img: ImgSpeakerVijaykumar,
         profession: "Head of Surgical Oncology and Robotic Surgery, Bharat Cancer Hospital",
     },
     pranav_mahishi: {
@@ -109,6 +112,7 @@ export const SPEAKERS = {
     },
     suryanarayan_rao: {
         name: "Mr. Suryanarayan Rao",
+        img: ImgSpeakerSuryanarayan,
         profession: "Ex-Director of Administrative Services, International Hospital Federation"
     }
 };

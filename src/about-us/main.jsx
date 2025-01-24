@@ -1,9 +1,11 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { filter, includes } from "lodash";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
+
+import ImgPadma from "../assets/team/team_padma.jpeg";
+import ImgAnvita from "../assets/team/team_anvita.jpg";
 
 const AboutUsPage = () => {
   return (
@@ -22,7 +24,7 @@ const AboutUsPage = () => {
         <h2>Founders</h2>
         <div id="founder-flex">
           <div className="founder-item">
-            <div className="team-item-image"></div>
+            <img src={ImgAnvita} className="team-item-image" />
             <h4>Ms. Anvita Sudarshan</h4>
             MFA A Filmmaker by education from New York Film Academy and a writer by passion, Anvita
             is a published author. Her book on pageantry,{" "}
@@ -34,7 +36,7 @@ const AboutUsPage = () => {
             Silverfish Books.
           </div>
           <div className="founder-item">
-            <div className="team-item-image"></div>
+            <img src={ImgPadma} className="team-item-image" />
             <h4>Ms. Padma Sudarshan</h4>
             Ph.D An Environmentalist by education, Padma serves on the Advisory Panel of India’s
             National Honey Mission. She has founded and worked on several environmental initiatives
@@ -48,42 +50,42 @@ const AboutUsPage = () => {
         <h2>The Team</h2>
         <div id="team-flex">
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Sudarshana</h4>
             <p>General coordinator</p>
           </div>
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Mahesh</h4>
             <p>Intellectual content curator</p>
           </div>
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Kanchana</h4>
             <p>Financial coordinator</p>
           </div>
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Joyita</h4>
             <p>Financial coordinator, Session schedule coordinator and Editor</p>
           </div>
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Poornima</h4>
             <p>Editor</p>
           </div>
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Saumya</h4>
             <p>Floor manager</p>
           </div>
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Sindhu</h4>
             <p>Web designer and webmaster</p>
           </div>
           <div className="team-item">
-            <div className="team-item-image"></div>
+            {/* <div className="team-item-image"></div> */}
             <h4>Deep</h4>
             <p>Web designer and webmaster</p>
           </div>
